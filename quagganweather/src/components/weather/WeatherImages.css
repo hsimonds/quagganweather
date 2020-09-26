@@ -1,0 +1,9 @@
+.ui.medium.image.custom {
+    float : right
+}
+
+@media only screen and (max-width: 1000px) {
+    .ui.medium.image.custom {
+        float : none
+    }
+}

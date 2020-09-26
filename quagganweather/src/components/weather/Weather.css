@@ -1,3 +1,5 @@
+
+
 .cloud.icon.custom {
     font-size: 5em;
     padding-top: 20px;
@@ -13,19 +15,18 @@
     float:left;
     width:60%;
     font-size: 30px;
+    line-height: 2em;
     padding: 15px;
 }
 
 .header.middle.custom {
     width:40%;
     font-size: 30px;
+    line-height: 2em;
     padding: 15px;
 }
 
-.header.right.custom {
-    width:30%;
-    padding: 15px;
-}
+
 
 .ui.fluid.card.custom {
     margin-top: 50px;
@@ -34,5 +35,12 @@
 .ui.buttons.custom {
     width: 100%;
     margin-top: 20px;
-    height: 60px;
+    height: 200px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .header.wrapper {
+        float:left;
+        width: 100%;
+    }
 }

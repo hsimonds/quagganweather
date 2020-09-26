@@ -59,7 +59,7 @@ class WeatherMulti extends React.Component {
 
                                 </div>
                                 <div className="header wrapper">
-                                    <div className="header custom">Temerature Daytime:</div>
+                                    <div className="header custom">Temp Daytime:</div>
                                     <div className="header middle custom">{day.temp.day}&#176;F</div>
 
                                 </div>

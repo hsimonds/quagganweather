@@ -59,7 +59,7 @@ class Weather extends React.Component {
 
     renderButtons = () => {
         return (
-            <div className="ui buttons custom">
+            <div className="ui vertical buttons custom">
                 <button 
                     onClick={() => this.onSelectForcastType("current")} 
                     className="ui green button"

@@ -1,5 +1,6 @@
 import React from 'react';
-
+import './WeatherImages.css'
+    
 class WeatherImages extends React.Component {
 
     //Choose appropriate image based on weather code
@@ -38,7 +39,7 @@ class WeatherImages extends React.Component {
 
     renderImage = () => {
         return (
-            <img alt="" className="ui medium image" style={{"float":"right"}} src={this.chooseImage(this.props.code)}></img>
+            <img alt="" className="ui medium image custom"  src={this.chooseImage(this.props.code)}></img>
         );
     }
 
